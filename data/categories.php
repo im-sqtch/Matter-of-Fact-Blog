@@ -1,13 +1,13 @@
 <?php
 
     $categories = [
-        'Quantum',
+        'quantum',
         'computers',
         'tecnology',
-        'robots',
-        'programing',
-        '??',
-        '??'
+        'electric cars',
+        'innovation',
+        'cell_phones',
+        'robot'
     ];
 
 ?>
