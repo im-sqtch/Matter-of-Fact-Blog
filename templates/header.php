@@ -10,7 +10,7 @@ include_once("helpers/url.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matter of Fact Blog</title>
+    <title>Matter of Factories Blog</title>
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="<?= $BASE_URL ?>/css/style.css">
     <!-- GOOGLE FONTS -->
@@ -20,4 +20,16 @@ include_once("helpers/url.php");
 </head>
 
 <body>
-    <header>Header template</header>
+    <header>
+        <a href="<?= $BASE_URL ?>" id="logo">
+            <img src="<?= $BASE_URL ?>/img/logo.png" alt="Matter of Factories">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="<?= $BASE_URL ?>">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="<?= $BASE_URL ?>contact.php">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>

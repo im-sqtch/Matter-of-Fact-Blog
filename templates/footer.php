@@ -1,5 +1,5 @@
 <footer>
-    <p>Matter of Fact &copy; 2022</p>
+    <p>Matter of Factories &copy; 2022</p>
 </footer>
 </body>
 </html>
