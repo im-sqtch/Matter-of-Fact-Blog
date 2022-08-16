@@ -43,11 +43,11 @@ main {
 #navbar .nav-link {
   color: #FFF;
   text-decoration: none;
-  transition: .5s;
   font-size: 14px;
 }
 
 #navbar .nav-link:hover {
+  transition: .5s;
   color: #999;
 }
 
