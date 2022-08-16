@@ -1,6 +1,8 @@
 <?php
 
-include_once("helpers/url.php");
+    include_once("helpers/url.php");
+    include_once("data/posts.php");
+    include_once("data/categories.php");
 
 ?>
 <!DOCTYPE html>
@@ -25,11 +27,11 @@ include_once("helpers/url.php");
             <img src="<?= $BASE_URL ?>/img/logo.png" alt="Matter of Factories">
         </a>
         <nav>
-            <ul>
-                <li><a href="<?= $BASE_URL ?>">Home</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="<?= $BASE_URL ?>contact.php">Contact us</a></li>
+            <ul id="navbar">
+                <li><a href="<?= $BASE_URL ?>" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Categories</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="<?= $BASE_URL ?>contact.php" class="nav-link">Contact us</a></li>
             </ul>
         </nav>
     </header>
